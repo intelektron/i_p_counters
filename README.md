@@ -32,7 +32,7 @@ In the "repositories" section put:
 3. Include module's scss in droopler_subtheme style.scss file
 
 ```scss
-@import "../../../../modules/contrib/i_p_counter/scss/i_p_counters";
+@import "../../../../modules/contrib/i_p_counters/scss/i_p_counters";
 ```
 
 **Note**: Any changes made in this file won't be caught by **gulp watch**.
