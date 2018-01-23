@@ -1,0 +1,14 @@
+name: Counters
+description: 'Feature containing paragraph with Counters.'
+type: module
+core: 8.x
+package: Intelektron
+dependencies:
+  - content_translation
+  - d_p
+  - entity_reference_revisions
+  - field
+  - image
+  - paragraphs
+  - shortcut
+version: 8.x-1.0

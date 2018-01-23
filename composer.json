@@ -1,0 +1,12 @@
+{
+    "name": "intelektron/i_p_counters",
+    "description": "Paragraph containing JS counters.",
+    "type": "drupal-module",
+    "license": "GPL-2.0+",
+    "authors": [
+        {
+            "name": "Grzegorz Pietrzak",
+            "role": "developer"
+        }
+    ]
+}

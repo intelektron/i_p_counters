@@ -1,0 +1,44 @@
+<?php
+
+/**
+ * @file
+ * File containing Drupal module
+ */
+
+// https://github.com/inorganik/countUp.js/tree/master/dist
+
+/**
+ * Implements hook_theme().
+ */
+function i_p_counters_theme($existing, $type, $theme, $path) {
+  return [
+    'paragraph__i_p_group_of_counters' => [
+      'base hook' => 'paragraph',
+    ],
+    'field__paragraph__field_i_counter_reference__i_p_group_of_counters' => [
+      'base hook' => 'field',
+    ],
+    'field__paragraph__field_i_number__i_p_single_counter' => [
+      'base hook' => 'field',
+    ],
+    'field__paragraph__field_d_main_title__i_p_single_counter' => [
+      'base hook' => 'field',
+    ]
+  ];
+}
+
+/**
+ * Implements hook_preprocess_HOOK().
+ */
+function i_p_counters_preprocess_paragraph(&$variables) {
+  $paragraph = $variables['paragraph'];
+  $bundle = $paragraph->bundle();
+
+  $styles_ids = d_p_responsive_style_ids();
+
+  switch ($bundle) {
+    case 'i_p_group_of_counters':
+      d_p_generate_image_set($variables, $styles_ids, $bundle);
+      $variables['#attached']['library'][] = 'i_p_counters/i_p_counters';
+  }
+}
