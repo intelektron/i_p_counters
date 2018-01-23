@@ -1,6 +1,8 @@
 # Counter paragraph for Droopler #
 [![N|Solid](http://intelektron.pl/logo.svg)](http://intelektron.pl)
 
+![Screen](http://intelektron.pl/static/intelektron-counters-1.png)
+
 ## Installation ##
 
 1. Update **composer.json**
@@ -30,7 +32,7 @@ In the "repositories" section put:
 3. Include module's scss in droopler_subtheme style.scss file
 
 ```scss
-@import "../../../../modules/contrib/i_p_gallery/scss/i_p_counters";
+@import "../../../../modules/contrib/i_p_counter/scss/i_p_counters";
 ```
 
 **Note**: Any changes made in this file won't be caught by **gulp watch**.
