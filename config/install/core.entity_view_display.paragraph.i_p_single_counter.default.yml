@@ -3,7 +3,7 @@ status: true
 dependencies:
   config:
     - field.field.paragraph.i_p_single_counter.field_d_main_title
-    - field.field.paragraph.i_p_single_counter.field_i_number
+    - field.field.paragraph.i_p_single_counter.field_d_number
     - paragraphs.paragraphs_type.i_p_single_counter
 id: paragraph.i_p_single_counter.default
 targetEntityType: paragraph
@@ -18,7 +18,7 @@ content:
     third_party_settings: {  }
     type: string
     region: content
-  field_i_number:
+  field_d_number:
     weight: 0
     label: hidden
     settings:

@@ -13,7 +13,7 @@
         };
 
         // Find all counters.
-        $('.paragraph--type--i-p-group-of-counters .field--name-field-i-number').each(function(){
+        $('.paragraph--type--i-p-group-of-counters .field--name-field-d-number').each(function(){
           // Trigger if in viewport.
           inViewport(this, function(el) {
             var id = 'upcnt' + cnt++;

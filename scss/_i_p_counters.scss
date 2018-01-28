@@ -52,7 +52,7 @@ $i-p-counters-img-opacity: 0.2 !default;
     // List of counters.
     .paragraph--type--i-p-single-counter {
       text-align: center;
-      .field--name-field-i-number {
+      .field--name-field-d-number {
         @include font-main-header;
         color: $i-p-counters-number-color;
         font-family: $font-header;
