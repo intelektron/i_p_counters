@@ -1,6 +1,8 @@
 # Counter paragraph for Droopler #
 [![N|Solid](http://intelektron.pl/logo.svg)](http://intelektron.pl)
 
+## How does it look? ##
+
 ![Screen](http://intelektron.pl/static/intelektron-counters-1.png)
 
 ## Installation ##
