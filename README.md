@@ -1,4 +1,7 @@
 # Counter paragraph for Droopler #
+
+***This module is deprecated**. It works only with Droopler 1.2. Since version 1.3 it is bundled into Droopler core.* 
+
 [![N|Solid](http://intelektron.pl/logo.svg)](http://intelektron.pl)
 
 ## How does it look? ##
